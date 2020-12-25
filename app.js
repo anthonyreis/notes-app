@@ -1,4 +1,3 @@
-// const validator = require('validator')
 const chalk = require('chalk')
 const yargs = require('yargs')
 const notes = require('./notes')
@@ -69,7 +68,3 @@ yargs.command({
 })
 
 yargs.parse()
-
-
-// console.log(validator.isEmail('anthonyexemplo@gmail.com'))
-// console.log(validator.isURL('https://mead.io'))
